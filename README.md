@@ -97,4 +97,15 @@ plot_attack_trends <- function(summary_data, x_var, y_var) {
 plot_attack_trends(incident_summary, year, incident_count)
 
 ```
+## Insights and Challenges
+
+**Insights:**
+- **Grouping Data:** Grouping cybersecurity incidents by year or attack type helps identify trends in cyber threats, allowing for more effective resource allocation.
+- **Visualization:** Using `ggplot2` for trend analysis provides a clear visual representation of how incidents evolve over time.
+- **Filtering:** Filtering the dataset by specific attack types allows a detailed view of individual threat patterns.
+
+**Challenges:**
+- **Data Quality:** Cybersecurity datasets often have missing or inconsistent values, requiring data cleaning to ensure accuracy in analysis.
+- **Handling Large Datasets:** Some datasets may be too large to process efficiently in R, requiring optimization techniques such as sampling or data aggregation.
+- **Feature Engineering:** The need to transform raw data into meaningful features for analysis, such as creating new categories for attack types, can be time-consuming.
 
